@@ -17,7 +17,6 @@ public class Position {
     }
     
     //Getters & Setters
-
     public int getRow() {
         return row;
     }
