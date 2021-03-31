@@ -1,5 +1,7 @@
 package src.application;
 
+import src.boardgame.Position;
+
 /**
  *
  * @author SkM
@@ -9,7 +11,8 @@ public class Program {
    
     public static void main(String[] args) {
        
-        System.out.println("Hello World!");
+       //Object Position Boardgame
+       Position pos = new Position( 3, 5 );
     }
     
 }
