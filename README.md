@@ -39,10 +39,10 @@
 
 ### `Placing pieces on the board`
 
-* [ ] Method: Board.PlacePiece( piece, position )
-* [ ] Classes: Rook, King [ public ] 
-* [ ] Method: ChessMatch.InitialSetup
-* [ ] -> OOP Topics:
+* [x] Method: Board.PlacePiece( piece, position )
+* [x] Classes: Rook, King [ public ] 
+* [x] Method: ChessMatch.InitialSetup
+* [x] -> OOP Topics:
 * -> Inheritance
 * -> Overriding
 * -> Polymorphism ( ToString )
@@ -50,9 +50,9 @@
 
 ### `BoardException and defensive programming`
 Class BoardException [public]
-* [ ]  Methods: Board.PositionExists, Board.ThereIsAPiece
-* [ ]  Implement defensive programming in Board methods
-* [ ] ->  OOP Topics:
+* [x]  Methods: Board.PositionExists, Board.ThereIsAPiece
+* [x]  Implement defensive programming in Board methods
+* [x] ->  OOP Topics:
 * -> Exceptions
 * -> Constructors (a string must be informed to the exception)
 ----
