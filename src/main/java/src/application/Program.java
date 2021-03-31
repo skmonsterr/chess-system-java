@@ -1,6 +1,6 @@
 package src.application;
 
-import src.boardgame.Position;
+import src.boardgame.Board;
 
 /**
  *
@@ -10,9 +10,9 @@ public class Program {
 
    
     public static void main(String[] args) {
-       
-       //Object Position Boardgame
-       Position pos = new Position( 3, 5 );
+        
+       //Canvas board
+       Board board = new Board ( 8, 8 );
     }
     
 }
